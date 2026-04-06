@@ -1,0 +1,41 @@
+/* Premium Dark Theme with Glassmorphism */
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    min-height: 100vh;
+}
+
+/* Smooth Animations */
+.transition-all {
+    transition: all 0.3s ease-in-out;
+}
+
+.hover\:scale-\[1\.02\]:hover {
+    transform: scale(1.02);
+}
+
+/* Glassmorphism Effects */
+.bg-gray-800\/50 {
+    background-color: rgba(31, 41, 55, 0.5);
+}
+
+.backdrop-blur-lg {
+    backdrop-filter: blur(16px);
+}
+
+/* Gradient Text */
+.text-transparent {
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .text-4xl {
+        font-size: 2rem;
+    }
+}
